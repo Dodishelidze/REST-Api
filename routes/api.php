@@ -22,6 +22,8 @@ Route::get('/{id}', [ProductController::class, 'show']);
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 
+/////helllooo there
+
 
 // protected routes
 Route::group(['middleware' => ['auth:sanctum']], function () {
